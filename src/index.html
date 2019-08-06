@@ -1,0 +1,112 @@
+<%
+
+var moment = require("moment");
+
+var formatDate = function(d) {
+  return moment(d, "MM/DD/YYYY").format("MMMM D, YYYY")
+}
+
+%><!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Safari, you're the worst -->
+    <meta name='format-detection' content='telephone=no'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <%= t.include("partials/_nav.html") %>
+
+
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="splash">
+      <img src="./assets/ethiopia_plane_crash.jpg">
+      <h1>What went wrong with Boeing’s 737 MAX?</h1>
+
+      <div class="container">
+
+        
+
+        <p class="chatter first">
+          It was Boeing’s hottest-selling plane, with nearly 5,000 orders, but the crashes of Lion Air Flight 610 and Ethiopian Airlines Flight 302, less than five months apart, have cast a global spotlight on how the jetmaker and the Federal Aviation Administration allowed an airliner with a flawed flight control system to go to market.
+
+        
+      </div>
+
+    </header>
+
+    <main class="content">
+      <div class="timeline">
+        <% var y = null; %>
+        <% json.timeline.forEach(function(row) { %>
+        <% var year = row.date.split("/").pop() * 1 %>
+        <% if (year && year != y) { %>
+        <div class="year-label">
+          <label><%= year %></label>
+        </div>
+        <% y = year; %>
+        <% } %>
+        <div class="entry">
+          <% if (row.photo) { %>
+          <div class="photo-embed">
+            <img src="./assets/<%= row.photo %>">
+            <div class="credit"><%= row.credit %></div>
+          </div>
+          <% } %>
+          <h2><%= row.event %></h2>
+          <span class="date">
+            <%= formatDate(row.date) %>
+            <% if (row.time) { %>
+            - <%= row.time %>
+            <% } %>
+          </span>
+          <div class="description">
+            <% if (row.video) { %>
+            <div class="video-embed">
+              <iframe src="https://www.youtube.com/embed/<%= row.video %>" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <% } %>
+            <p><%= row.description.trim().split(/\n+/g).join("<p>") %>
+            <% if (row.quote) { %>
+            <blockquote>
+              <p>
+              <%= row.quote.trim().split(/\n+/g).join("<p>") %>
+            </blockquote>
+            <% } %>
+          </div>
+          <% if (row.link) { %>
+          <a class="read-more" href="<%= row.link %>" target="_blank">
+            <% if (row.thumbnail) { %>
+            <img src="<%= row.thumbnail %>">
+            <% } else { %>
+            Read more &raquo;
+            <% } %>
+          </a>
+          <% } %>
+        </div>
+        <% }) %>
+      </div>
+
+      <ul class="credit-block">
+        <li class="date"> Originally published: Xxxxx
+        <li> Reporting: Xxxx
+      </ul>
+    </main>
+
+
+    
+
+    <%= t.include("partials/_navBottom.html") %>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

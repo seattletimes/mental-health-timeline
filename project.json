@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "illative-agriculture"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "assets/social.jpg",
+  "sheets": ["1vSEtdsb4lVHATxQ3t0HipFtqIT9St5gV2Zb9x-L5LM0"],
+  "production": false,
+  "embedded": false
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "date": "7/1/2011",
+    "description": "After learning that American Airlines is ready to order 200 new Airbus A320 neo jets, Boeing makes a key decision: It abandons plans for a new small aircraft in favor of a re-engined 737—the MAX."
+  },
+  {
+    "date": "8/30/2011",
+    "description": "Boeing launches the MAX."
+  },
+  {
+    "date": "11/3/2011",
+    "description": "Boeing announces design changes, including larger engines, for 737 MAX. The new aircraft has no firm orders yet, while Airbus’s neo has 918 as of end of September.",
+    "link": "https://www.seattletimes.com/business/boeing-announces-design-changes-for-737-max/"
+  },
+  {
+    "date": "12/14/2011",
+    "description": "Southwest Airlines orders 150 737 MAX aircraft, representing a much-needed win for Boeing and the MAX",
+    "link": "https://www.seattletimes.com/business/southwests-order-gives-huge-boost-to-boeings-737-max-program/"
+  },
+  {
+    "date": "10/3/2014",
+    "description": "Boeing announces plans for an unprecedented production ramp-up of 737s, including the new MAX, at Renton plant.",
+    "link": "http://old.seattletimes.com/html/businesstechnology/2024681201_boeing737xml.html"
+  },
+  {
+    "date": "1/1/2015",
+    "description": "Federal Aviation Administration (FAA) managers push the agency’s safety engineers to delegate safety assessments to Boeing itself, and to speedily approve the resulting analysis.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/"
+  },
+  {
+    "date": "12/8/2015",
+    "description": "Boeing rolls out first 737 MAX at Renton."
+  },
+  {
+    "date": "1/29/2016",
+    "description": "First flight of a 737 MAX",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/boeings-737-max-takes-off-on-first-flight/"
+  },
+  {
+    "date": "5/12/2016",
+    "description": "Boeing promises to accelerate delivery of the first 737 MAX by several months, to the first half of 2017. Three months earlier, Airbus deliversthe first of its best-selling neo."
+  },
+  {
+    "date": "3/9/2017",
+    "description": "Boeing announces that FAA has certified the 737 MAX 8."
+  },
+  {
+    "date": "4/7/2019",
+    "description": "The 737 program marks its 50th year.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/boeing-737-which-took-the-aviation-world-by-storm-marks-50-years-of-flight/"
+  },
+  {
+    "date": "5/16/2017",
+    "description": "Boeing delivers the first 737 MAX 8 to Malaysia-based Malindo Air, a subsidiary of Lion Air.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/boeing-delivers-first-737-max-after-faa-gives-ok-for-most-engines/"
+  },
+  {
+    "date": "10/29/2018",
+    "description": "A 737 MAX 8 operated by Lion Air crashes after departing Indonesia, killing all 189 people on board.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/search-for-cause-of-deadly-737-lion-air-crash-begins/"
+  },
+  {
+    "date": "11/6/2018",
+    "description": "Boeing details what pilots should do if a sensor failure erroneously triggers an automated flight-control system called MCAS that may cause the plane to pitch downward, a scenario suspected in the Lion Air crash. Boeing’s bulletin provides the first description of MCAS, which pilots and airlines had previously been unaware of."
+  },
+  {
+    "date": "1/31/2019",
+    "description": "Boeing reports 5,011 orders for the MAX from 79 customers."
+  },
+  {
+    "date": "3/10/2019",
+    "description": "A 737 MAX 8 operated by Ethiopian Airlines crashes, killing all 157 people on board.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/boeing-737-max-crashes-after-takeoff-in-ethiopia-killing-157/"
+  },
+  {
+    "date": "3/11/2019",
+    "description": "China and Indonesia ground the MAX, although the cause of the Ethiopian Airlines crash is still unknown. Boeing says by April it will introduce FAA-approved changes to the MAX flight-control system, in reaction to Lion Air crash.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/investigators-find-new-clues-to-potential-cause-of-737-max-crashes-as-faa-details-boeings-fix/"
+  },
+  {
+    "date": "3/12/2019",
+    "description": "Regulators in key markets including Canada, the European Union and India ground the 737 MAX."
+  },
+  {
+    "date": "3/13/2019",
+    "description": "The FAA grounds the 737 MAX after investigators find indications that MCAS may have been involved in the Ethiopian Airlines crash.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/after-analyzing-satellite-data-on-737-max-crash-canada-bans-the-plane-from-its-airspace/"
+  },
+  {
+    "date": "3/17/2019",
+    "description": "Seattle Times details major shortcomings in the FAA’s certification of the 737 MAX flight control system",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/"
+  },
+  {
+    "date": "4/1/2019",
+    "description": "A federal grand jury issues a subpoena in criminal probe into Boeing’s 737 MAX certification",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/grand-jury-subpoena-shows-sweep-of-criminal-probe-into-boeings-737-max-certification/"
+  },
+  {
+    "date": "4/4/2019",
+    "description": "Preliminary crash report confirms Ethiopian 737 MAX pilots lost control despite following Boeing’s instructions",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/preliminary-report-on-ethiopian-crash-confirms-the-737-max-pilots-lost-control-despite-following-boeings-instructions/"
+  },
+  {
+    "date": "4/5/2019",
+    "description": "Boeing announces plans to cut MAX production by 20 percent, to 42 aircraft per month.",
+    "link": "https://www.seattletimes.com/business/boeing-aerospace/boeing-will-lower-737-production-rate-but-says-no-layoffs/"
+  }
+]
