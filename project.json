@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": "illative-agriculture"
+      "path": "formal-amyloid"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
@@ -15,7 +15,7 @@
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
-  "sheets": ["1vSEtdsb4lVHATxQ3t0HipFtqIT9St5gV2Zb9x-L5LM0"],
+  "sheets": ["1Hn8dbvgUuAm6SP0tRi2NTyYAUqvDDhjfkmKflPl3oCw"],
   "production": false,
   "embedded": false
 }

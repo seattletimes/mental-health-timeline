@@ -20,86 +20,133 @@ var formatDate = function(d) {
   <body>
 
     <%= t.include("partials/_nav.html") %>
-
-
-      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <header class="splash">
-      <img src="./assets/ethiopia_plane_crash.jpg">
-      <h1>What went wrong with Boeing’s 737 MAX?</h1>
+      <!-- <img src="./assets/ethiopia_plane_crash.jpg"> -->
+      <h1>Rosemary Torgesen’s last months</h1>
 
       <div class="container">
+        <p class="chatter">
+          A week before Rosemary Torgesen was admitted to Smokey Point Behavioral Hospital, regulators found problems there that created a “high risk of serious harm, injury and death.” Over 99 days as a Smokey Point patient, her condition deteriorated while the hospital struggled to keep patients and staff safe and faced the risk of losing federal funding.</p>
 
-        
-
-        <p class="chatter first">
-          It was Boeing’s hottest-selling plane, with nearly 5,000 orders, but the crashes of Lion Air Flight 610 and Ethiopian Airlines Flight 302, less than five months apart, have cast a global spotlight on how the jetmaker and the Federal Aviation Administration allowed an airliner with a flawed flight control system to go to market.
-
-        
       </div>
 
     </header>
 
-    <main class="content">
-      <div class="timeline">
-        <% var y = null; %>
-        <% json.timeline.forEach(function(row) { %>
-        <% var year = row.date.split("/").pop() * 1 %>
-        <% if (year && year != y) { %>
-        <div class="year-label">
-          <label><%= year %></label>
-        </div>
-        <% y = year; %>
-        <% } %>
-        <div class="entry">
-          <% if (row.photo) { %>
-          <div class="photo-embed">
-            <img src="./assets/<%= row.photo %>">
-            <div class="credit"><%= row.credit %></div>
-          </div>
-          <% } %>
-          <h2><%= row.event %></h2>
-          <span class="date">
-            <%= formatDate(row.date) %>
-            <% if (row.time) { %>
-            - <%= row.time %>
-            <% } %>
-          </span>
-          <div class="description">
-            <% if (row.video) { %>
-            <div class="video-embed">
-              <iframe src="https://www.youtube.com/embed/<%= row.video %>" frameborder="0" allowfullscreen></iframe>
+    <main>
+      <div class="content">
+          <div class="timeline">
+            <h2>Rosemary Torgesen</h2>
+            <br>
+            <br>
+              <% var y = null; %>
+              <% json.timeline.forEach(function(row) { %>
+              <% var year = row.date.split("/").pop() * 1 %>
+              <% if (year && year != y) { %>
+              <div class="year-label">
+                <label><%= year %></label>
+              </div>
+              <% y = year; %>
+              <% } %>
+              <div class="entry">
+                <% if (row.photo) { %>
+                <div class="photo-embed">
+                  <img src="./assets/<%= row.photo %>">
+                  <div class="credit"><%= row.credit %></div>
+                </div>
+                <% } %>
+                <h2><%= row.event %></h2>
+                <span class="date">
+                  <%= formatDate(row.date) %>
+                  <% if (row.time) { %>
+                  - <%= row.time %>
+                  <% } %>
+                </span>
+                <div class="description">
+                  <% if (row.video) { %>
+                  <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/<%= row.video %>" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <% } %>
+                  <p><%= row.description %>
+                  <% if (row.quote) { %>
+                  <blockquote>
+                    <p>
+                    <%= row.quote.trim().split(/\n+/g).join("<p>") %>
+                  </blockquote>
+                  <% } %>
+                </div>
+                <% if (row.link) { %>
+                <a class="read-more" href="<%= row.link %>" target="_blank">
+                  <% if (row.thumbnail) { %>
+                  <img src="<%= row.thumbnail %>">
+                  <% } else { %>
+                  Read more &raquo;
+                  <% } %>
+                </a>
+                <% } %>
+              </div>
+              <% }) %>
             </div>
-            <% } %>
-            <p><%= row.description.trim().split(/\n+/g).join("<p>") %>
-            <% if (row.quote) { %>
-            <blockquote>
-              <p>
-              <%= row.quote.trim().split(/\n+/g).join("<p>") %>
-            </blockquote>
-            <% } %>
+      
+          <div class="timeline2">
+              <h2>Smokey Point Behavioral Hospital (Selected events)</h2>
+              <br>
+              <% var y = null; %>
+              <% json.timeline2.forEach(function(row) { %>
+              <% var year = row.date.split("/").pop() * 1 %>
+              <% if (year && year != y) { %>
+              <div class="year-label">
+                <label><%= year %></label>
+              </div>
+              <% y = year; %>
+              <% } %>
+              <div class="entry">
+                <% if (row.photo) { %>
+                <div class="photo-embed">
+                  <img src="./assets/<%= row.photo %>">
+                  <div class="credit"><%= row.credit %></div>
+                </div>
+                <% } %>
+                <h2><%= row.event %></h2>
+                <span class="date">
+                  <%= formatDate(row.date) %>
+                  <% if (row.time) { %>
+                  - <%= row.time %>
+                  <% } %>
+                </span>
+                <div class="description">
+                  <p><%= row.description %>
+                  <% if (row.quote) { %>
+                  <blockquote>
+                    <p>
+                    <%= row.quote.trim().split(/\n+/g).join("<p>") %>
+                  </blockquote>
+                  <% } %>
+                </div>
+                <% if (row.link) { %>
+                <a class="read-more" href="<%= row.link %>" target="_blank">
+                  <% if (row.thumbnail) { %>
+                  <img src="<%= row.thumbnail %>">
+                  <% } else { %>
+                  Read more &raquo;
+                  <% } %>
+                </a>
+                <% } %>
+              </div>
+              <% }) %>
+            </div>
           </div>
-          <% if (row.link) { %>
-          <a class="read-more" href="<%= row.link %>" target="_blank">
-            <% if (row.thumbnail) { %>
-            <img src="<%= row.thumbnail %>">
-            <% } else { %>
-            Read more &raquo;
-            <% } %>
-          </a>
-          <% } %>
-        </div>
-        <% }) %>
+
+      <div>
+        <ul class="credit-block">
+          <li class="date"> Originally published: Xxxxx
+          <li> Reporting: Xxxx
+        </ul>
       </div>
 
-      <ul class="credit-block">
-        <li class="date"> Originally published: Xxxxx
-        <li> Reporting: Xxxx
-      </ul>
     </main>
-
-
-    
 
     <%= t.include("partials/_navBottom.html") %>
 

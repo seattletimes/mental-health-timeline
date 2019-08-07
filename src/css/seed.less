@@ -78,6 +78,8 @@ body {
 }
 
 .content {
+  display: flex;
+  flex-flow: 2 1 auto;
   clear: both;
   max-width: 630px;
   font-size: 16px;
@@ -89,7 +91,7 @@ body {
 }
 
 .timeline {
-
+  padding: 0px 30px 0px 0px;
   .year-label {
     clear: both;
     margin-top: 10px;
@@ -97,7 +99,7 @@ body {
     border-top: 2px dotted @df-middle-gray;
     margin-bottom: 30px;
     transition: all .2s linear;
-    opacity: .5;
+    opacity: 1;
 
     label {
       margin: 0 auto;
@@ -108,10 +110,6 @@ body {
       position: relative;
       top: -10px;
       transition: all .2s linear;
-    }
-
-    &.activated {
-      opacity: 1;
     }
   }
 
@@ -134,101 +132,52 @@ body {
     color: @st-dark-red;
     font-weight: bold;
   }
+}
 
-  blockquote {
-    border: 1px dotted @df-light-gray;
-    margin: 10px;
-    padding: 10px;
-    font-family: @df-serif;
-    position: relative;
-
-    &::before {
-      content: "“";
-      position: absolute;
-      top: -30px;
-      left: -10px;
-      color: @df-light-gray;
-      font-size: 90px;
-      font-weight: bold;
-    }
-
-    &::after {
-      content: "„";
-      position: absolute;
-      bottom: -30px;
-      right: -10px;
-      color: @df-light-gray;
-      font-size: 90px;
-      font-weight: bold;
-    }
-  }
-
-  .photo-embed {
-    max-width: 50%;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    z-index: 999;
-    position: relative;
+.timeline2 {
+  padding: 0px 30px 0px 0px;
+  .year-label {
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 2px dotted @df-middle-gray;
+    margin-bottom: 30px;
+    transition: all .2s linear;
     opacity: 1;
-    transform: translateY(0);
 
-    @media @mobile {
-      float: none;
-      max-width: 100%;
-      margin: auto;
-    }
-
-    img {
-      max-height: 300px;
-      display: block;
-      margin: auto;
-      // box-shadow: 0 10px 16px fade(black, 10%);
-    }
-
-    .credit {
-      font-size: 14px;
-      font-style: italic;
-      text-align: right;
-      text-transform: uppercase;
-      color: @df-middle-gray;
-      padding: 8px 0;
-    }
-
-    &.animate {
-      transition: all .5s ease-in-out;
-    }
-
-    &.hidden {
-      opacity: 0.01;
-      transform: translateY(20px);
+    label {
+      margin: 0 auto;
+      padding: 4px 8px;
+      border: 2px solid @df-middle-gray;
+      background: white;
+      color: @df-dark-gray;
+      position: relative;
+      top: -10px;
+      transition: all .2s linear;
     }
   }
 
-  .video-embed {
-    position: relative;
+  h2 {
+    margin: 0;
+    font-size: 20px;
+  }
 
-    &::before {
+  .entry {
+    padding-bottom: 30px;
+    clear: both;
+    &::after {
+      display: block;
       content: "";
-      display: block;
-      padding-bottom: percentage(9 / 16);
-    }
-
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      clear: both;
     }
   }
 
-  .read-more {
-    text-transform: uppercase;
-    display: block;
-    text-align: right;
+  .date {
+    color: @st-dark-red;
+    font-weight: bold;
   }
 }
+
 
 ul.credit-block {
   list-style-type: none;
