@@ -79,9 +79,9 @@ body {
 
 .content {
   display: flex;
-  flex-flow: 2 1 auto;
+  justify-content: space-between;
   clear: both;
-  max-width: 630px;
+  max-width: 900px;
   font-size: 16px;
   margin: 16px auto;
 
@@ -90,36 +90,52 @@ body {
   }
 }
 
-.timeline {
-  padding: 0px 30px 0px 0px;
-  .year-label {
-    clear: both;
-    margin-top: 10px;
-    text-align: center;
-    border-top: 2px dotted @df-middle-gray;
-    margin-bottom: 30px;
-    transition: all .2s linear;
-    opacity: 1;
+.year-label {
+  clear: both;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 2px dotted @df-middle-gray;
+  margin-bottom: 30px;
+  transition: all .2s linear;
+  opacity: 1;
 
-    label {
-      margin: 0 auto;
-      padding: 4px 8px;
-      border: 2px solid @df-middle-gray;
-      background: white;
-      color: @df-dark-gray;
-      position: relative;
-      top: -10px;
-      transition: all .2s linear;
-    }
+  label {
+    margin: 0 auto;
+    padding: 4px 8px;
+    border: 2px solid @df-middle-gray;
+    background: white;
+    color: @df-dark-gray;
+    position: relative;
+    top: -10px;
+    transition: all .2s linear;
   }
+}
+
+.timeline {
+  padding: 0px 50px 0px 0px;
+  width: 50%;
+
+  .year-label {
+    margin-top: 0px;
+    border-top: 2px solid @df-middle-gray;
+  }
+
+  .dateHidden1 {
+    color: white;
+  }
+
+  .descriptionHidden1 {
+    color: white;
+  } 
 
   h2 {
     margin: 0;
     font-size: 20px;
+    margin: 0px 0px 5px 0px;
   }
 
   .entry {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     clear: both;
     &::after {
       display: block;
@@ -129,41 +145,36 @@ body {
   }
 
   .date {
-    color: @st-dark-red;
+    color: #af4319;
     font-weight: bold;
   }
 }
 
 .timeline2 {
   padding: 0px 30px 0px 0px;
-  .year-label {
-    clear: both;
-    margin-top: 10px;
-    text-align: center;
-    border-top: 2px dotted @df-middle-gray;
-    margin-bottom: 30px;
-    transition: all .2s linear;
-    opacity: 1;
+  width: 50%;
 
-    label {
-      margin: 0 auto;
-      padding: 4px 8px;
-      border: 2px solid @df-middle-gray;
-      background: white;
-      color: @df-dark-gray;
-      position: relative;
-      top: -10px;
-      transition: all .2s linear;
-    }
+  .year-label {
+    margin-top: 0px;
+    border-top: 2px solid @df-middle-gray;
+  }
+
+  .dateHidden {
+    color: white;
+  }
+
+  .descriptionHidden {
+    color: white;
   }
 
   h2 {
     margin: 0;
     font-size: 20px;
+    margin: 8px 0px 0px 0px;
   }
 
   .entry {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     clear: both;
     &::after {
       display: block;
@@ -173,9 +184,15 @@ body {
   }
 
   .date {
-    color: @st-dark-red;
+    color: #cc8d11;
     font-weight: bold;
   }
+}
+
+.date1 {
+  padding-top: 8px;
+  color: #af4319;
+  font-weight: bold;
 }
 
 
@@ -188,4 +205,8 @@ ul.credit-block {
   .date {
     margin-bottom: 16px;
   }
+}
+
+.hr {
+
 }

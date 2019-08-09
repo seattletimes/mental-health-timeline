@@ -35,17 +35,19 @@ var formatDate = function(d) {
     </header>
 
     <main>
+        <div class="year-label">
+            <label>2018</label>
+          </div>
       <div class="content">
           <div class="timeline">
-            <h2>Rosemary Torgesen</h2>
+            <h3>Rosemary Torgesen</h3>
             <br>
             <br>
               <% var y = null; %>
               <% json.timeline.forEach(function(row) { %>
-              <% var year = row.date.split("/").pop() * 1 %>
+              <% var year = row.dateHidden1.split("/").pop() * 1 %>
               <% if (year && year != y) { %>
               <div class="year-label">
-                <label><%= year %></label>
               </div>
               <% y = year; %>
               <% } %>
@@ -56,25 +58,28 @@ var formatDate = function(d) {
                   <div class="credit"><%= row.credit %></div>
                 </div>
                 <% } %>
-                <h2><%= row.event %></h2>
-                <span class="date">
-                  <%= formatDate(row.date) %>
+                <h2><%= row.event1 %></h2>
+                <span class="date1">
+                  <%= row.date1 %>
                   <% if (row.time) { %>
                   - <%= row.time %>
+                    <% } %>
+                </span>
+                <div class="description1">
+                  <p><%= row.description1 %>
+                  <% if (row.quote) { %>
+                  <% } %>
+                </div>
+                <span class="dateHidden1">
+                  <%= formatDate(row.dateHidden1) %>
+                  <% if (row.time1) { %>
+                  - <%= row.time1 %>
                   <% } %>
                 </span>
-                <div class="description">
-                  <% if (row.video) { %>
-                  <div class="video-embed">
-                    <iframe src="https://www.youtube.com/embed/<%= row.video %>" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                  <% } %>
-                  <p><%= row.description %>
+
+                <div class="descriptionHidden1">
+                  <p><%= row.descriptionHidden1 %>
                   <% if (row.quote) { %>
-                  <blockquote>
-                    <p>
-                    <%= row.quote.trim().split(/\n+/g).join("<p>") %>
-                  </blockquote>
                   <% } %>
                 </div>
                 <% if (row.link) { %>
@@ -91,14 +96,13 @@ var formatDate = function(d) {
             </div>
       
           <div class="timeline2">
-              <h2>Smokey Point Behavioral Hospital (Selected events)</h2>
+              <h4>Smokey Point Behavioral Hospital<br>(Selected events)</h4>
               <br>
               <% var y = null; %>
               <% json.timeline2.forEach(function(row) { %>
-              <% var year = row.date.split("/").pop() * 1 %>
+              <% var year = row.dateHidden.split("/").pop() * 1 %>
               <% if (year && year != y) { %>
               <div class="year-label">
-                <label><%= year %></label>
               </div>
               <% y = year; %>
               <% } %>
@@ -110,21 +114,31 @@ var formatDate = function(d) {
                 </div>
                 <% } %>
                 <h2><%= row.event %></h2>
+
                 <span class="date">
-                  <%= formatDate(row.date) %>
+                  <%= row.date %>
                   <% if (row.time) { %>
                   - <%= row.time %>
-                  <% } %>
+                    <% } %>
                 </span>
                 <div class="description">
                   <p><%= row.description %>
                   <% if (row.quote) { %>
-                  <blockquote>
-                    <p>
-                    <%= row.quote.trim().split(/\n+/g).join("<p>") %>
-                  </blockquote>
                   <% } %>
                 </div>
+                <span class="dateHidden">
+                  <%= formatDate(row.dateHidden) %>
+                  <% if (row.time) { %>
+                  - <%= row.time %>
+                  <% } %>
+                </span>
+
+                <div class="descriptionHidden">
+                  <p><%= row.descriptionHidden %>
+                  <% if (row.quote) { %>
+                  <% } %>
+                </div>
+
                 <% if (row.link) { %>
                 <a class="read-more" href="<%= row.link %>" target="_blank">
                   <% if (row.thumbnail) { %>
@@ -139,7 +153,9 @@ var formatDate = function(d) {
             </div>
           </div>
 
-      <div>
+          <hr>
+
+      <div class="content">
         <ul class="credit-block">
           <li class="date"> Originally published: Xxxxx
           <li> Reporting: Xxxx
