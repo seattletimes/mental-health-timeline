@@ -73,7 +73,6 @@ var formatDate = function(d) {
                 <span class="dateHidden1">
                   <%= formatDate(row.dateHidden1) %>
                   <% if (row.time1) { %>
-                  - <%= row.time1 %>
                   <% } %>
                 </span>
 
@@ -126,6 +125,7 @@ var formatDate = function(d) {
                   <% if (row.quote) { %>
                   <% } %>
                 </div>
+                
                 <span class="dateHidden">
                   <%= formatDate(row.dateHidden) %>
                   <% if (row.time) { %>
@@ -157,8 +157,9 @@ var formatDate = function(d) {
 
       <div class="content">
         <ul class="credit-block">
-          <li class="date"> Originally published: Xxxxx
-          <li> Reporting: Xxxx
+          <li class="date"> Sources: Rosemary Torgesen records from Smokey Point Behavioral Hospital, Providence Regional Medical Center in Everett and
+              Northwest Hospital, death certificate, Snohomish County 911, Department of Health, Washington state Governor’s Office
+          <li> EMILY M. ENG / THE SEATTLE TIMES
         </ul>
       </div>
 
