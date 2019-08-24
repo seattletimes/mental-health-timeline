@@ -1,21 +1,48 @@
-<section class="thin-div">
-  <div class="center">Don't Miss</div>
-</section>
+<section class="text-block padding">
+<!-- <section class="thin-div"> -->
+  <section>
+    <div class="center"><h1>Continue reading the three-part investigation by The Seattle Times</h1></div>
+  </section>
 
 <section class="dont-miss">
-  <% data.forEach(function(story) { %>
-    <div class="story">
+  <div class="story">
       <div class="padded">
-        <a href="<%= story.link %>">
-          <img src="./assets/<%= story.image %>"></img>
+        <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-part1/#timeline">
+          <img src="./assets/part1.jpg"></img>
         </a>
-        <div class="small"><%= story.category %></div>
         <div>
-          <a href="<%= story.link %>">
-            <%= story.head %>
+          <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-part1#timeline">
+            PART ONE: How a company’s push to expand psychiatric care brought peril
+            <br>Publishing on August 25, 2019
           </a>
         </div>
       </div>
     </div>
-  <% }); %>
+    <div class="story">
+      <div class="padded">
+        <!-- <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-part2"> -->
+          <img src="./assets/part2.jpg" style="opacity: .3"></img>
+        <!-- </a> -->
+        <div>
+          <!-- <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-part2"> -->
+            PART TWO
+            <br> Coming soon
+          <!-- </a> -->
+        </div>
+      </div>
+    </div>
+    <div class="story">
+      <div class="padded">
+        <!-- <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-part3"> -->
+          <img src="./assets/part3.jpg" style="opacity: .3"></img>
+        <!-- </a> -->
+        <div>
+          <!-- <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-part3"> -->
+            PART THREE
+            <br> Coming soon
+          <!-- </a> -->
+        </div>
+      </div>
+    </div>
+  
 </section>

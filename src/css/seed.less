@@ -78,6 +78,10 @@ body {
   padding: 0px 25px 0px 0px;
   width: 50%;
 
+  @media @mobile {
+    line-height: 1;
+  }
+
   .year-label {
     margin-top: 0px;
     border-top: 2px solid @df-middle-gray;
@@ -91,7 +95,7 @@ body {
     color: white;
     @media @mobile {
       font-size: 1px;
-      line-height: 1;
+      line-height: 0;
       padding: 0;
     }
   }
@@ -153,8 +157,8 @@ body {
     color: white;
 
     @media @mobile {
-      font-size: 14px;
-      line-height: 1.2;
+      font-size: 1px;
+      line-height: 0;
       margin-block-end: 0;
       padding: 0;
       margin: 0;
@@ -165,8 +169,8 @@ body {
     color: white;
 
     @media @mobile {
-      font-size: 14px;
-      line-height: 2;
+      font-size: 1px;
+      line-height: 0;
       margin-block-end: 0;
     }
   }
@@ -188,6 +192,7 @@ body {
 
     @media @mobile {
       padding-bottom: 0px;
+      line-height: 0;
     }
   }
 
@@ -197,7 +202,7 @@ body {
 
     @media @mobile {
       font-size: 14px;
-      line-height: 1;
+      line-height: 1.2;
       padding: 0;
     }
   }
@@ -210,7 +215,7 @@ body {
 
   @media @mobile {
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.2;
     padding: 0;
   }
 }
@@ -224,5 +229,63 @@ ul.credit-block {
 
   .date {
     margin-bottom: 16px;
+  }
+}
+
+.sources {
+  margin: 6px auto 0;
+  max-width: 960px;
+  text-align: left;
+  line-height: 1.2;
+  font-size: 14px;
+  font-family: @df-sans;
+  color: @df-middle-gray;
+  padding: 30px 20px 0px;
+}
+
+.return {
+  // background-color: @df-light-gray;
+  padding: 0 20px 20px 0px;
+  border-radius: 5px;
+  border: 2px solid #e0e0e0;
+  font-size: 17px;
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+
+.dont-miss {
+  .display-flex;
+  .flex-wrap(wrap);
+  margin: auto;
+  margin-top: 15px;
+  max-width: 900px;
+  font-size: 17px;
+  font-family: @df-sans;
+
+  .story {
+    .flex(0 0 33%);
+
+    @media @mobile {
+      .flex(1 1 100%)
+    }
+  }
+  .padded {
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  a {
+    color: @df-dark-gray;
+    transition: color .1s linear;
+
+    &:hover {
+      color: @df-blue;
+    }
+  }
+  .small {
+    font-weight: bold;
+    font-size: 15px;
   }
 }
