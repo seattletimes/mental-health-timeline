@@ -1,34 +1,22 @@
 [
   {
+    "date": "April 15, 2018",
+    "dateHidden": "3/15/2018",
+    "time": "INSPECTION VIOLATIONS",
+    "description": "Regulators find “immediate jeopardy” to patient safety that posed a “high risk of serious harm, injury and death.”"
+  },
+  {
     "dateHidden": "3/22/2018",
     "eventHidden": "Day 1",
-    "descriptionHidden": "Rosemary Torgesen is admitted to Smokey Point on a court order after refusing to eat, drink and take medications for her schizophreniaz"
+    "descriptionHidden": "Rosemary Torgesen is admitted to Smokey Point on a court order after refusing to eat, drink and take medications for her schizophrenia Rosemary Torgesen is admitted to Smokey Point on a court order after refusing to eat, drink and take medications for her schizophrenia Rosemary Torgesen is admitted to Smokey Point on a court order after \nrefusing to eat, drink and take medications for her schizophrenia \nRosemary Torgesen is admitted to Smokey Point on a court order after \nrefusing to eat, drink and take medications for her schizophrenia \n\n"
   },
   {
     "dateHidden": "4/3/2018",
     "descriptionHidden": "Smokey Point sends Rosemary to Providence Regional Medical Center’s emergency room for “abnormal labs”"
   },
   {
-    "date": "April 5, 2018",
-    "dateHidden": "4/5/2018",
-    "time": "911 CALL",
-    "description": "Caller claims she was abused while a patient at Smokey Point, “mostly malpractice type abuse”"
-  },
-  {
     "dateHidden": "4/6/2018",
     "descriptionHidden": "A Smokey Point staff member recommends Rosemary “be sent to a more medical psych unit” "
-  },
-  {
-    "date": "April 11, 2018",
-    "dateHidden": "4/11/2018",
-    "time": "911 CALL",
-    "description": "Staff member goes to ER after being bitten by patient"
-  },
-  {
-    "date": "April 13, 2018",
-    "dateHidden": "4/13/2018",
-    "time": "911 CALL",
-    "description": "16-year-old patient with possible dislocated shoulder"
   },
   {
     "dateHidden": "4/20/2018",
@@ -36,7 +24,7 @@
   },
   {
     "dateHidden": "4/24/2018",
-    "descriptionHidden": "Smokey Point sends her to Providence’s emergency room for the second time for refusing to eat, drink and take medications the second time for refusing to eat, drink and take medications"
+    "descriptionHidden": "Smokey Point sends her to Providence’s emergency"
   },
   {
     "date": "April 27, 2018",
@@ -45,10 +33,10 @@
     "description": "Patient attempts suicide by overdose"
   },
   {
-    "date": "April 28, 2018",
-    "dateHidden": "4/28/2018",
-    "time": "911 CALL",
-    "description": "Patient falls out of a chair and a doctor requests an ambulance"
+    "date": "April 30, 2018",
+    "dateHidden": "4/30/2018",
+    "time": "SAFETY CONCERN",
+    "description": "Patient taken to ER with “intractable headache” a week after doctor had ordered CT scan that was never scheduled"
   },
   {
     "date": "May 5, 2018",
@@ -64,20 +52,17 @@
   },
   {
     "dateHidden": "5/8/2018",
-    "descriptionHidden": "Smokey Point sends Rosemary to Northwest Hospital to be evaluated for admission, but she is returned that day after being medically cleared"
+    "descriptionHidden": "Smokey Point sends Rosemary to Northwest Hospital to be evaluated for admission,"
   },
   {
-    "date": "May 15, 2018",
-    "dateHidden": "5/15/2018",
-    "time": "911 CALL",
-    "description": "Staff member bitten by patient"
+    "date": "May 9, 2018",
+    "dateHidden": "5/9/2018",
+    "time": "COMPLAINT",
+    "description": "Patient complains to DOH of understaffing and \"extreme amount of violence by patients.\""
   },
   {
     "dateHidden": "5/20/2018",
     "eventHidden": "Day 60"
-  },
-  {
-    "dateHidden": "5/28/2018"
   },
   {
     "date": "May 30, 2018",
@@ -88,8 +73,8 @@
   {
     "date": "May 31, 2018",
     "dateHidden": "5/31/2018",
-    "time": "911 CALL",
-    "description": "Patient taken to ER after collapsing and going into an unresponsive state"
+    "time": "SAFETY CONCERN",
+    "description": "Christina Perry, a nurse, resigns citing understaffing and unsafe conditions"
   },
   {
     "date": "June 4, 2018",
@@ -99,8 +84,14 @@
   },
   {
     "date": "June 5, 2018",
+    "dateHidden": "6/5/2018",
+    "time": "SAFETY CONCERN",
+    "description": "A patient with cornea scarring told Department of Health he hadn't seen an opthamologist despite a doctor’s order more than two weeks before"
+  },
+  {
+    "date": "June 6, 2018",
     "dateHidden": "6/6/2018",
-    "time": "POLITICAL",
+    "time": "OFFICIAL VISIT",
     "description": "Alfie Alvarado-Ramos, director of state Department of Veterans Affairs, emcees ceremony for new military unit at Smokey Point"
   },
   {
@@ -110,18 +101,14 @@
     "description": "Regulators return to inspect Smokey Point and find serious violations “resulted in an unsafe environment for patients”"
   },
   {
-    "date": "June 8, 2018",
-    "dateHidden": "6/8/2018",
-    "time": "911 CALL",
-    "description": "Hospital calls a “code blue” for patient not breathing"
-  },
-  {
     "dateHidden": "6/16/2018",
     "descriptionHidden": "Rosemary falls at Smokey Point and is taken to the emergency room at Cascade Valley Hospital, where she is diagnosed with a broken arm"
   },
   {
+    "date": "June 19, 2018",
     "dateHidden": "6/19/2018",
-    "descriptionHidden": "Smokey Point sends her to Providence’s ER for the third time for refusing to drink any fluids"
+    "time": "COMPLAINT",
+    "description": "Former Smokey Point pharmacist files complaint to DOH about lack of staffing"
   },
   {
     "dateHidden": "6/20/2018",
@@ -129,18 +116,12 @@
     "descriptionHidden": "Smokey Point records refer to her as being “bedbound”"
   },
   {
-    "date": "June 21, 2018",
-    "dateHidden": "6/21/2018",
-    "time": "911 CALL",
-    "description": "Health professional reports caller suggested she would harm herself after denied admission at Smokey Point due to “insurance type”"
-  },
-  {
     "dateHidden": "6/24/2018",
     "descriptionHidden": "Smokey Point records show she has developed a bed sore"
   },
   {
     "dateHidden": "6/28/2018",
-    "descriptionHidden": "Smokey Point sends her to Providence’s ER for the third time for refusing to eat, drink or take medication"
+    "descriptionHidden": "Smokey Point sends her to Providence’s ER for the fifth time for refusing to eat, drink or take medication"
   },
   {
     "dateHidden": "6/29/2018",
@@ -157,14 +138,14 @@
     "dateHidden": "7/18/2018"
   },
   {
-    "date": "July 18, 2018",
+    "date": "July 19, 2018",
     "dateHidden": "7/19/2018",
     "time": "REGULATORY",
-    "description": "US HealthVest CEO pitches a third proposed psychiatric hospital in Washington at a public hearing, pledging to boost the region’s mental-health workforce and saying Smokey Point “demonstrates our strategies are successful.”"
+    "description": "US HealthVest CEO pitches a third psychiatric hospital in Washington, pledging to boost the region’s mental-health workforce and saying Smokey Point “demonstrates our strategies are successful.”"
   },
   {
     "dateHidden": "7/20/2018",
     "eventHidden": "Day 120",
-    "descriptionHidden": "Rosemary Torgesen dies, with malnutrition given as the primary cause by the medical examiner"
+    "descriptionHidden": "Rosemary Torgesen dies, with malnutrition given as the primary cause on her death certificate"
   }
 ]

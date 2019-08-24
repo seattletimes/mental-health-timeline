@@ -1,9 +1,13 @@
 [
   {
+    "dateHidden1": "3/15/2018",
+    "descriptionHidden1": "Regulators find “immediate jeopardy” to patient safety that posed a “high risk of serious harm, injury and death.”"
+  },
+  {
     "date1": "March 22, 2018",
     "dateHidden1": "3/22/2018",
     "event1": "Day 1",
-    "description1": "Rosemary Torgesen is admitted to Smokey Point on a court order after refusing to eat, drink and take medications for her schizophreniaz"
+    "description1": "Rosemary Torgesen is admitted to Smokey Point on a court order after refusing to eat, drink and take medications for her schizophrenia"
   },
   {
     "date1": "April 3, 2018",
@@ -11,21 +15,9 @@
     "description1": "Smokey Point sends Rosemary to Providence Regional Medical Center’s emergency room for “abnormal labs”"
   },
   {
-    "dateHidden1": "4/5/2018",
-    "descriptionHidden1": "Caller claims she was abused while a patient at Smokey Point, “mostly malpractice type abuse”"
-  },
-  {
     "date1": "April 6, 2018",
     "dateHidden1": "4/6/2018",
     "description1": "A Smokey Point staff member recommends Rosemary “be sent to a more medical psych unit” "
-  },
-  {
-    "dateHidden1": "4/11/2018",
-    "descriptionHidden1": "Staff member goes to ER after being bitten by patient"
-  },
-  {
-    "dateHidden1": "4/13/2018",
-    "descriptionHidden1": "16-year-old patient with possible dislocated shoulder"
   },
   {
     "date1": "April 20, 2018",
@@ -42,8 +34,8 @@
     "descriptionHidden1": "Patient attempts suicide by overdose"
   },
   {
-    "dateHidden1": "4/28/2018",
-    "descriptionHidden1": "Patient falls out of a chair and a doctor requests an ambulance"
+    "dateHidden1": "4/30/2018",
+    "descriptionHidden1": "Patient taken to ER with “intractable headache” a week after doctor had ordered CT scan that was never scheduled"
   },
   {
     "dateHidden1": "5/5/2018",
@@ -59,8 +51,8 @@
     "description1": "Smokey Point sends Rosemary to Northwest Hospital to be evaluated for admission, but she is returned that day after being medically cleared"
   },
   {
-    "dateHidden1": "5/15/2018",
-    "descriptionHidden1": "Staff member bitten by patient"
+    "dateHidden1": "5/9/2019",
+    "descriptionHidden1": "Patient complains to DOH of understaffing and \"extreme amount of violence by patients.\""
   },
   {
     "date1": "May 20, 2018",
@@ -68,7 +60,7 @@
     "event1": "Day 60"
   },
   {
-    "date1": "May 28. 2018",
+    "date1": "May 28, 2018",
     "dateHidden1": "5/28/2018",
     "description1": "Smokey Point sends her to Providence’s ER for the third time for abnormal labs"
   },
@@ -78,11 +70,15 @@
   },
   {
     "dateHidden1": "5/31/2018",
-    "descriptionHidden1": "Patient taken to ER after collapsing and going into an unresponsive state"
+    "descriptionHidden1": "Christina Perry, a nurse, resigns citing understaffing and unsafe conditions"
   },
   {
     "dateHidden1": "6/4/2018",
     "descriptionHidden1": "Hospital error results in giving patient medication meant for another, requiring medical follow-up"
+  },
+  {
+    "dateHidden1": "6/5/2018",
+    "descriptionHidden1": "A patient with cornea scarring told Department of Health he hadn't seen an opthamologist despite a doctor’s order more than two weeks before"
   },
   {
     "dateHidden1": "6/6/2018",
@@ -91,10 +87,6 @@
   {
     "dateHidden1": "6/7/2018",
     "descriptionHidden1": "Regulators return to inspect Smokey Point and find serious violations “resulted in an unsafe environment for patients”"
-  },
-  {
-    "dateHidden1": "6/8/2018",
-    "descriptionHidden1": "Hospital calls a “code blue” for patient not breathing"
   },
   {
     "date1": "June 16, 2018",
@@ -111,10 +103,6 @@
     "dateHidden1": "6/20/2018",
     "event1": "Day 90",
     "description1": "Smokey Point records refer to her as being “bedbound”"
-  },
-  {
-    "dateHidden1": "6/21/2018",
-    "descriptionHidden1": "Health professional reports caller suggested she would harm herself after denied admission at Smokey Point due to “insurance type”"
   },
   {
     "date1": "June 24, 2018",
@@ -143,7 +131,7 @@
   },
   {
     "dateHidden1": "7/19/2018",
-    "descriptionHidden1": "US HealthVest CEO pitches a third proposed psychiatric hospital in Washington at a public hearing, pledging to boost the region’s mental-health workforce and saying Smokey Point “demonstrates our strategies are successful.”"
+    "descriptionHidden1": "US HealthVest CEO pitches a third psychiatric hospital in Washington, pledging to boost the region’s mental-health workforce and saying Smokey Point “demonstrates our strategies are successful.”"
   },
   {
     "date1": "July 20, 2018",

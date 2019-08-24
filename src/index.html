@@ -28,14 +28,14 @@ var formatDate = function(d) {
 
       <div class="container">
         <p class="chatter">
-          A week before Rosemary Torgesen was admitted to Smokey Point Behavioral Hospital, regulators found problems there that created a “high risk of serious harm, injury and death.” Over 99 days as a Smokey Point patient, her condition deteriorated while the hospital struggled to keep patients and staff safe and faced the risk of losing federal funding.</p>
+          Over 99 days as a Smokey Point patient, Rosemary Torgesen’s condition deteriorated while the hospital struggled to keep patients and staff safe and comply with regulatory standards. Below are events documented in her medical record, and other incidents involving the hospital drawn from 911 calls, police reports, inspections, regulatory complaints and other public records.</p>
 
       </div>
 
     </header>
 
     <main>
-        <div class="year-label">
+        <div class="year-label-top">
             <label>2018</label>
           </div>
       <div class="content">
@@ -43,12 +43,14 @@ var formatDate = function(d) {
             <h3>Rosemary Torgesen</h3>
             <br>
             <br>
+
+            <div class="year-label">
+            </div>
               <% var y = null; %>
               <% json.timeline.forEach(function(row) { %>
               <% var year = row.dateHidden1.split("/").pop() * 1 %>
               <% if (year && year != y) { %>
-              <div class="year-label">
-              </div>
+              
               <% y = year; %>
               <% } %>
               <div class="entry">
@@ -157,8 +159,7 @@ var formatDate = function(d) {
 
       <div class="content">
         <ul class="credit-block">
-          <li class="date"> Sources: Rosemary Torgesen records from Smokey Point Behavioral Hospital, Providence Regional Medical Center in Everett and
-              Northwest Hospital, death certificate, Snohomish County 911, Department of Health, Washington state Governor’s Office
+          <li class="date"> Sources: Rosemary Torgesen records from Smokey Point Behavioral Hospital, Providence Regional Medical Center in Everett and Northwest Hospital, death certificate, Snohomish County 911, Department of Health, Washington state Governor’s Office
           <li> EMILY M. ENG / THE SEATTLE TIMES
         </ul>
       </div>
