@@ -8,22 +8,23 @@ var formatDate = function(d) {
 
 %><!doctype html>
 <html>
-  <head>
-    <title><%= json.project.title %></title>
+  <head>    
+    <meta property="og:image" content="https://projects.seattletimes.com/2019/public-crisis-private-toll-timeline/assets/social.jpg" />
+    
+    <%= t.include("partials/_head.html", grunt.data.json) %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- Safari, you're the worst -->
     <meta name='format-detection' content='telephone=no'>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <%= t.include("partials/_head.html") %>
   </head>
-  <body>
 
+  <body>
+    <%= t.include("partials/_gtm.html") %>
     <%= t.include("partials/_nav.html") %>
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <header class="splash">
-      <!-- <img src="./assets/ethiopia_plane_crash.jpg"> -->
       <h1>Rosemary Torgesen’s last months</h1>
 
       <div class="container">

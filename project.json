@@ -6,16 +6,17 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2019/public-crisis-private-toll-timeline"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Rosemary Torgesen’s last months",
+  "description": "Timeline of Rosemary Torgesen's last months",
+  "url": "https://projects.seattletimes.com/2019/public-crisis-private-toll-timeline/",
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["1Hn8dbvgUuAm6SP0tRi2NTyYAUqvDDhjfkmKflPl3oCw"],
-  "production": false,
+  "standout": false,
+  "production": true,
   "embedded": false
 }
